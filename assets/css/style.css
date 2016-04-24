@@ -1,0 +1,53 @@
+.sidebar-container {
+	position: fixed;
+	width: 280px;
+	height: 100%;
+	background-color: white;
+	font-family: Lato;
+}
+.page-wrapper {
+	position: absolute;
+	left: 280px;
+	font-family: Tinos;
+}
+.heading {
+	font-family: Lato;
+	font-size: 36px;
+}
+.subwriting {
+	font-family: Lato;
+	font-size: 24px;
+}
+.page {
+	display: none;
+}
+#landing {
+	width: 960px;
+	height: 600px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 20px;
+	position: relative;
+}
+#main-heading {
+	padding: 10px;
+	margin-left: 20px;
+}
+#landing-text {
+	width: 200px;
+	height: 100px;
+	margin: 3px;
+	position: absolute;
+	top: 400px;
+	left: 800px;
+	font-size: 17px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	text-decoration: none;
+}
+.show {
+	display: initial;
+}
