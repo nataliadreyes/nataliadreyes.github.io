@@ -40,7 +40,7 @@
 	position: absolute;
 	top: 400px;
 	left: 800px;
-	font-size: 17px;
+	font-size: 20px;
 }
 a {
 	text-decoration: none;
@@ -50,4 +50,16 @@ ul {
 }
 .show {
 	display: initial;
+}
+.page {
+	font-size: 30px;
+	width: 800px;
+}
+.datopacity {
+	opacity: 0.4;
+}
+#image-page {
+	width: 960px;
+	font-size: 20px;
+	line-height: 35px;
 }

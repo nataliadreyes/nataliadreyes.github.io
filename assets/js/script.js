@@ -18,4 +18,21 @@ $(document).ready(function() {
 		$("#sidebar-image").click(function () {
 			$("#image-page").show();
 	});
+		$("#sidebar-natalia").click(function () {
+			$("#writing-page").hide();
+			$("#image-page").hide();
+	});
+		$("#sidebar-writing").click(function () {
+			$("#natalia-page").hide();
+			$("#image-page").hide();
+	});
+		$("#sidebar-image").click(function () {
+			$("#natalia-page").hide();
+			$("#writing-page").hide();
+	});
+		$("#landing").hover(function () {
+			$("#landing").addClass("datopacity")
+		}, function () {
+			$("#landing").removeClass("datopacity");
+	});
 });
