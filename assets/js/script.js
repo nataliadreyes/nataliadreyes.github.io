@@ -30,11 +30,6 @@ $(document).ready(function() {
 			$("#natalia-page").hide();
 			$("#writing-page").hide();
 	});
-		$("#landing").hover(function () {
-			$("#landing").addClass("datopacity")
-		}, function () {
-			$("#landing").removeClass("datopacity");
-	});
 		$("#sidebar-natalia").hover(function () {
 			$("#sidebar-natalia").addClass("datopacity")
 		}, function () {
