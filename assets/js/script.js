@@ -35,4 +35,9 @@ $(document).ready(function() {
 		}, function () {
 			$("#landing").removeClass("datopacity");
 	});
+		$(".sidebar-item").hover(function () {
+			$(".sidebar-item").addClass("datopacity")
+		}, function () {
+			$(".sidebar-item").removeClass("datopacity");
+	});
 });
