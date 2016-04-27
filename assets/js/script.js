@@ -35,9 +35,24 @@ $(document).ready(function() {
 		}, function () {
 			$("#landing").removeClass("datopacity");
 	});
-		$(".sidebar-item").hover(function () {
-			$(".sidebar-item").addClass("datopacity")
+		$("#sidebar-natalia").hover(function () {
+			$("#sidebar-natalia").addClass("datopacity")
 		}, function () {
-			$(".sidebar-item").removeClass("datopacity");
+			$("#sidebar-natalia").removeClass("datopacity");
+	});
+		$("#sidebar-writing").hover(function () {
+			$("#sidebar-writing").addClass("datopacity")
+		}, function () {
+			$("#sidebar-writing").removeClass("datopacity");
+	});
+		$("#sidebar-image").hover(function () {
+			$("#sidebar-image").addClass("datopacity")
+		}, function () {
+			$("#sidebar-image").removeClass("datopacity");
+	});
+		$("#main-heading").hover(function () {
+			$("#main-heading").addClass("datopacity")
+		}, function () {
+			$("#main-heading").removeClass("datopacity");
 	});
 });
