@@ -32,6 +32,7 @@
 #main-heading {
 	padding: 10px;
 	margin-left: 20px;
+	font-size: 50px;
 }
 #landing-text {
 	width: 200px;
@@ -62,4 +63,11 @@ ul {
 	width: 960px;
 	font-size: 20px;
 	line-height: 35px;
+}
+.sidebar-item {
+	font-size: 30px;
+	line-height: 45px;
+}
+#writing-page {
+	line-height: 36px;
 }
